@@ -14,9 +14,9 @@ title: 3D-Model-Construction-for-a-target-class-using-XAI
 ---
 
 ## Team
--  e18354, Ruchira Tharaka, [email](e18354@eng.pdn.ac.lk)
--  e18318, Piyumali Sandunika, [email](e18318@eng.pdn.ac.lk)
--  e18022, Didula Induwara, [email](e18022@eng.pdn.ac.lk)
+-  e/18/354, K.K.D.R.Tharaka, [e18354@eng.pdn.ac.lk](mailto:name@email.com)
+-  e/18/318, S.A.P.Sandunika, [e18318@eng.pdn.ac.lk](mailto:name@email.com)
+-  e/18/022, Amarasinghe D.I., [e18022@eng.pdn.ac.lk](mailto:name@email.com)
 
 ## Table of Contents
 1. [Introduction](#introduction)
