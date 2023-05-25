@@ -4,7 +4,7 @@ permalink: index.html
 
 # Please update this with your repository name and title
 repository-name: e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16
-title: 3D-Model-Construction-for-a-target-class-using-XAI
+title: 3D Model Construction for a target class using XAI
 ---
 
 [comment]: # "This is the standard layout for the project, but you can clean this and use your own template"
@@ -16,7 +16,7 @@ title: 3D-Model-Construction-for-a-target-class-using-XAI
 ## Team
 -  e/18/354, K.K.D.R.Tharaka, [e18354@eng.pdn.ac.lk](mailto:name@email.com)
 -  e/18/318, S.A.P.Sandunika, [e18318@eng.pdn.ac.lk](mailto:name@email.com)
--  e/18/022, Amarasinghe D.I., [e18022@eng.pdn.ac.lk](mailto:name@email.com)
+-  e/18/022, D.I.Amarasinghe, [e18022@eng.pdn.ac.lk](mailto:name@email.com)
 
 ## Table of Contents
 1. [Introduction](#introduction)
