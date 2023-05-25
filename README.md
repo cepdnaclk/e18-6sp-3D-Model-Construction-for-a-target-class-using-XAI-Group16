@@ -1,7 +1,5 @@
 ___
-# DELETE THIS INSTRUCTIONS AND ADD A SHORT INTRODUCTION ABOUT YOUR PROJECT
+# 3D Model construction for a target class using XAI
 ___
 
-## Please refer the instructions in below URL:
-
-https://projects.ce.pdn.ac.lk/docs/how-to-add-a-project
+Our aim is to create a general 3d skeleton for a target object through a process which uses a model that understands  the unique and real features of the target object using XAI
