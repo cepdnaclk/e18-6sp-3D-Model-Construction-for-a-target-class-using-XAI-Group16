@@ -76,6 +76,13 @@ Comparing with state-of-the-art method this method falls short in terms of sampl
 ![Screenshot 2023-06-13 092557](https://github.com/cepdnaclk/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16/assets/99112218/826bf9b5-fb33-4821-9f2d-bafe774290b2)
 ![Screenshot 2023-06-13 093016](https://github.com/cepdnaclk/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16/assets/99112218/52387107-3cf5-4213-a682-495272ed8f29)
 ![Screenshot 2023-06-13 092620](https://github.com/cepdnaclk/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16/assets/99112218/05fe67e4-1edf-4957-8166-142cc6072502)
+![car1](https://github.com/cepdnaclk/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16/assets/73444543/4c18d010-eef3-419c-96b1-113d34196009)
+
+## building a general 3D model with combining multiple results of 3D models
+
+Uses the os and open3d libraries in Python to merge multiple point cloud files (.ply format) into a single fused point cloud 
+
+![qss](https://github.com/cepdnaclk/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16/assets/73444543/0eba2c9d-5a95-4576-858c-8df893bd0802)
 
 
 ## Links
