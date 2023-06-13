@@ -21,8 +21,9 @@ title: 3D Model Construction for a target class using XAI
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Image Classification Model](#imageclassfication)
-3. [Image Classification Model](#imageclassfication)
-4. [Links](#links)
+3. [SHAP (SHapley Additive exPlanations)](#shap)
+4. [3D reconstruction using Point E](#pointe)
+5. [Links](#links)
 
 ---
 
@@ -36,9 +37,28 @@ MobileNet is a deep learning model architecture designed for efficient image cla
 
 The MobileNet architecture employs depthwise separable convolutions, which significantly reduces the number of parameters and computations required compared to traditional convolutional neural networks (CNNs). This reduction allows MobileNet to achieve a good balance between accuracy and model size.
 
+### Advantages 
+- Efficient in terms of model size and computational complexity
+- Has a small model size, making it easier to deploy on devices with limited storage capacity
+- Enables faster inference times
+- Achieves competitive accuracy levels
+- Provides a strong foundation for transfer learning
+
+## SHAP (SHapley Additive exPlanations)
+
+SHAP (SHapley Additive exPlanations) is an advanced method for explaining the predictions of machine learning models. It is based on cooperative game theory and aims to assign an importance value to each input feature or variable in a model, indicating how much that feature contributes to the model's prediction for a particular instance.  It aids in understanding the factors driving the model's decisions, enhances interpretability, and enables trust in the model's outputs, making it valuable in real-world applications.
 
 
-.....
+### Key features
+
+- Can be applied to any black-box model (ex: MobileNet)
+- Provides explanations at the individual instance level
+- Offers a measure of global feature importance
+- Interpretability and Trust
+- Provides various visualization techniques to represent the explanations
+
+## 3D reconstruction using Point E
+
 
 ## Links
 
