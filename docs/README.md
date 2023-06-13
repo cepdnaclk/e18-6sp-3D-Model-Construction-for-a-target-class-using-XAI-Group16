@@ -67,6 +67,17 @@ Their method first generates a single synthetic view using a text-to-image diffu
 
 Comparing with state-of-the-art method this method falls short in terms of sample quality but faster in sampling. Since our application wants to sample thousands of images, speed of the sampling is required over the quality. So, the traid-off is accepted.
 
+## 3D reconstruction results
+![Screenshot 2023-06-13 092550](https://github.com/cepdnaclk/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16/assets/99112218/90c55d91-fa1a-4576-bd61-ef5c7cf5e548)
+![Screenshot 2023-06-13 092528](https://github.com/cepdnaclk/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16/assets/99112218/0e3bfabc-efcc-450e-bf79-565148a6c1f7)
+![Screenshot 2023-06-13 092518](https://github.com/cepdnaclk/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16/assets/99112218/be1af25d-de67-49d0-b154-8ae173931c79)
+
+![Screenshot 2023-06-13 092620](https://github.com/cepdnaclk/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16/assets/99112218/bd98a589-3cd0-4986-8792-bbe8e2e62ea1)
+![Screenshot 2023-06-13 092605](https://github.com/cepdnaclk/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16/assets/99112218/d6a40f86-9c78-498b-a134-64690770025a)
+![Screenshot 2023-06-13 092557](https://github.com/cepdnaclk/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16/assets/99112218/0cc8eeda-0803-4240-8a5a-ac0cc24dda15)
+![Screenshot 2023-06-13 093016](https://github.com/cepdnaclk/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16/assets/99112218/656fb647-5528-4e24-bbe5-3929d64d3edf)
+
+
 ## Links
 
 - [Project Repository](https://github.com/cepdnaclk/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16)
