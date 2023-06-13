@@ -67,6 +67,12 @@ Their method first generates a single synthetic view using a text-to-image diffu
 
 Comparing with state-of-the-art method this method falls short in terms of sample quality but faster in sampling. Since our application wants to sample thousands of images, speed of the sampling is required over the quality. So, the traid-off is accepted.
 
+## Images Classification results
+![WhatsApp Image 2023-06-13 at 10 10 37](https://github.com/cepdnaclk/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16/assets/73444543/47e81900-dd49-4ac6-a415-a1ab4a641761)
+
+## SHAP output
+![WhatsApp Image 2023-06-13 at 10 10 378](https://github.com/cepdnaclk/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16/assets/73444543/aea640c0-6149-4352-b73f-1d663b5e25ff)
+
 ## 3D reconstruction results
 ![Screenshot 2023-06-13 092518](https://github.com/cepdnaclk/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16/assets/99112218/4360defa-bda6-4d64-a0bf-cedf14c5d405)
 ![Screenshot 2023-06-13 092550](https://github.com/cepdnaclk/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16/assets/99112218/c5fc0919-c712-420b-b3f5-c69d44f3521b)
@@ -77,12 +83,6 @@ Comparing with state-of-the-art method this method falls short in terms of sampl
 ![Screenshot 2023-06-13 093016](https://github.com/cepdnaclk/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16/assets/99112218/52387107-3cf5-4213-a682-495272ed8f29)
 ![Screenshot 2023-06-13 092620](https://github.com/cepdnaclk/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16/assets/99112218/05fe67e4-1edf-4957-8166-142cc6072502)
 ![car1](https://github.com/cepdnaclk/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16/assets/73444543/4c18d010-eef3-419c-96b1-113d34196009)
-
-## Images Classification results
-![WhatsApp Image 2023-06-13 at 10 10 37](https://github.com/cepdnaclk/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16/assets/73444543/47e81900-dd49-4ac6-a415-a1ab4a641761)
-
-## SHAP output
-![WhatsApp Image 2023-06-13 at 10 10 378](https://github.com/cepdnaclk/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16/assets/73444543/aea640c0-6149-4352-b73f-1d663b5e25ff)
 
 ## building a general 3D model with combining multiple results of 3D models
 
