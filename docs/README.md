@@ -59,6 +59,13 @@ SHAP (SHapley Additive exPlanations) is an advanced method for explaining the pr
 
 ## 3D reconstruction using Point E
 
+Typical 3D reconstruction models takes a long time to reconstruct a 3D model. The state-of-the-art methods typically require multiple GPU-hours to produce a single sample.
+
+Here we are using the Point.E method which is introduced with the research paper, "Point·E: A System for Generating 3D Point Clouds from Complex Prompts" by Alex Nichol, Heewoo Jun, Prafulla Dhariwal, Pamela Mishkin and Mark ChenIn. In this model, an alternative method for 3D object generation is used which produces 3D models in only 1-2 minutes on a single GPU.
+
+Their method first generates a single synthetic view using a text-to-image diffusion model, and then produces a 3D point cloud using a second diffusion model which conditions on the generated image.
+
+Comparing with state-of-the-art method this method falls short in terms of sample quality but faster in sampling. Since our application wants to sample thousands of images, speed of the sampling is required over the quality. So, the traid-off is accepted.
 
 ## Links
 
