@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1s8-fEMsrUVD_yE6Vb2sIccNr9RoMEwSB
 """
 
-import cv2
+#import cv2
 from google.colab.patches import cv2_imshow
 import numpy as np
 import tensorflow as tf
@@ -56,17 +56,18 @@ a = ""
 
 @app.route('/second',methods=['POST'])
 def dgetStr():
-    a = request.form['file']
+    '''a = request.form['file']
     print(a)
     decoded_data=base64.b64decode((a))
     #write the decoded data back to original format in  file
     img_file = open('example.jpeg', 'wb')
     img_file.write(decoded_data)
-    img_file.close()
+    img_file.close()'''
     # enter your model path and load model
     model = loadModel('/content/model.h5')
     # enter image path
     result = predict_image(model, '/content/example.jpeg')
+    result = predict_image(model, 'dog.jpg')    
     return {'name':str(result)}
 
 
