@@ -68,7 +68,9 @@ Their method first generates a single synthetic view using a text-to-image diffu
 Comparing with state-of-the-art method this method falls short in terms of sample quality but faster in sampling. Since our application wants to sample thousands of images, speed of the sampling is required over the quality. So, the traid-off is accepted.
 
 ## Images Classification results
-![WhatsApp Image 2023-06-13 at 10 10 37](https://github.com/cepdnaclk/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16/assets/73444543/47e81900-dd49-4ac6-a415-a1ab4a641761)
+Result : Model predicting the image as a car correctly
+
+![car](https://github.com/cepdnaclk/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16/assets/73444543/aa783423-dae2-4f6c-822a-339cd00f147e)
 
 ## SHAP output
 ![WhatsApp Image 2023-06-13 at 10 10 378](https://github.com/cepdnaclk/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16/assets/73444543/aea640c0-6149-4352-b73f-1d663b5e25ff)
@@ -78,17 +80,8 @@ Comparing with state-of-the-art method this method falls short in terms of sampl
 ![Screenshot 2023-06-13 092550](https://github.com/cepdnaclk/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16/assets/99112218/c5fc0919-c712-420b-b3f5-c69d44f3521b)
 ![Screenshot 2023-06-13 092528](https://github.com/cepdnaclk/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16/assets/99112218/5e28fb94-942a-40cf-b6be-29e1aad30f9c)
 
-![Screenshot 2023-06-13 092605](https://github.com/cepdnaclk/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16/assets/99112218/5649426c-3097-4fb0-af65-6853eb772943)
-![Screenshot 2023-06-13 092557](https://github.com/cepdnaclk/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16/assets/99112218/826bf9b5-fb33-4821-9f2d-bafe774290b2)
-![Screenshot 2023-06-13 093016](https://github.com/cepdnaclk/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16/assets/99112218/52387107-3cf5-4213-a682-495272ed8f29)
-![Screenshot 2023-06-13 092620](https://github.com/cepdnaclk/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16/assets/99112218/05fe67e4-1edf-4957-8166-142cc6072502)
 ![car1](https://github.com/cepdnaclk/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16/assets/73444543/4c18d010-eef3-419c-96b1-113d34196009)
 
-## building a general 3D model with combining multiple results of 3D models
-
-Uses the os and open3d libraries in Python to merge multiple point cloud files (.ply format) into a single fused point cloud 
-
-![qss](https://github.com/cepdnaclk/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16/assets/73444543/0eba2c9d-5a95-4576-858c-8df893bd0802)
 
 
 ## Links
