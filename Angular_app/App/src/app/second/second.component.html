@@ -1,0 +1,20 @@
+<div class="container">
+  <h1>Machine Learning Model For Classification</h1>
+  <div class="description">This is a machine learning model for classification between dog or a car for a given image. This is done as a 6th semester project in Computer Engineering Department, University of Peradeniya.</div>
+  <div class="description">In this project, we embarked on a fascinating journey to construct 3D models using Explainable Artificial Intelligence (XAI) techniques. We began by selecting two distinct and easily classifiable objects, cars and dogs, and sourced datasets from Kaggle. After preprocessing the data, including resizing and format conversion, we employed the MobileNet model for classification. To gain insights into the model's decision-making process, we harnessed the power of explainers like Shap and Lime. These XAI tools allowed us to pinpoint the critical pixels influencing the model's predictions. Armed with this valuable information, we ventured into the realm of 3D modeling, using the identified critical pixels as a foundation. This innovative approach not only enhanced our understanding of the model's inner workings but also paved the way for the creation of 3D representations rooted in the most influential aspects of the original 2D images. Through this project, we not only explored the synergy between machine learning and XAI but also showcased the potential of leveraging these insights for immersive 3D model generation.</div>
+  <h3>Try the model</h3>
+
+  <div class="mlModelContainer transition">
+    <div class="mlExm transition">
+      <img *ngIf="url" class="image transition" [src]="url"><br>
+      <input type="file" class="file-input" (change)="onClickSubmit($event)" #fileUpload>
+    </div>
+    <div class="control transition" *ngIf="url">
+      <div class="predictButton" (click)="checkFile()">Predict</div>
+      <h1 *ngIf="prediction!=''" class="prediction">{{prediction}}</h1>
+    </div>
+  </div>
+
+  <h1>{{received}}</h1>
+
+</div>
