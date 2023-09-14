@@ -1,0 +1,31 @@
+body{
+  background-image : url("/assets/back.jpg");
+    background-repeat: no-repeat;
+    background-size: 1550px 750px;
+  width : 100%;
+  height : 97vh;
+}
+.header{
+  width : 100%;
+  height : 96px;
+  display : flex;
+  padding-bottom : 4px;
+  justify-content : space-between;
+  align-items : center;
+  background-color : rgb(255,255,255,0.2);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.01) 0px 8px 16px -8px;
+}
+.mlDiv{
+  width : 49.9%;
+  text-align : center;
+  height : 71px;
+  color: #5F6163;
+  padding-top : 25px;
+  border-radius : 0 0 15px 15px;
+}
+.transition{
+  transition:  all 0.2s;
+}
+.mlDiv:hover{
+  color : #1A5276;
+  }
