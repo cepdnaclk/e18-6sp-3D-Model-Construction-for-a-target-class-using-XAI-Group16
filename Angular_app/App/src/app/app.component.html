@@ -1,0 +1,11 @@
+<html>
+  <body>
+    <div class="header">
+      <div [style]="mlDivFont" class="mlDiv transition" (click)="goToMlModel()">ML Model</div>
+      <div [style]="tlDivFont" class="mlDiv transition" (click)="goTo3DModel()">3D reconstruction</div>
+    </div>
+    <div class="body">
+      <router-outlet></router-outlet>
+    </div>
+  </body>
+</html>

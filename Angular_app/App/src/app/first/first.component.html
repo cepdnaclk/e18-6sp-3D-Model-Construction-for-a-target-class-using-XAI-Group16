@@ -1,0 +1,15 @@
+<div class="container">
+  <canvas #canvas id="canvas" [style.display]="displayCanvas"></canvas>
+  <h2>To reconstruct a image in 3D upload the image below.</h2>
+  <div class="exContainer">
+    <div class="imageContainer">
+      <img *ngIf="url" class="image transition" [src]="url"><br>
+      <input type="file" class="file-input" (change)="onClickSubmit($event)" #fileUpload>
+    </div>
+    <div class="control transition" *ngIf="url">
+      <div class="constructButton" (click)="check3d()">Reconstruct</div>
+      <h1 *ngIf="output!=''" class="output">{{output}}</h1>
+      <div *ngIf="done" class="doneButton" (click)="Done()">Done</div>
+    </div>
+  </div>
+</div>

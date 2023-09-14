@@ -1,0 +1,83 @@
+.container{
+  height : 80vh;
+  padding : 10px;
+  padding-left: 15px;
+  overflow-y : scroll;
+}
+canvas{
+  height: 400px;
+  width: 700px;
+  background-color : red;
+  border-radius : 15px;
+  margin : 15px;
+  border : 2px solid #1A5276;
+}
+.exContainer{
+  display : flex;
+}
+.imageContainer{
+  background-color : white;
+  border-radius : 15px;
+  padding : 10px;
+}
+.file-input::file-selector-button {
+  width: 100px;
+  height: 30px;
+  background-color: #1A5276;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+.control{
+  background-color: #196F3D;
+  max-width : 600px;
+  border : 2px solid #52BE80;
+  border-radius : 15px;
+  margin-left : 170px;
+  height : 100%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.01) 0px 8px 16px -8px;
+}
+.constructButton{
+  height : 30px;
+  border : 2px solid #52BE80;
+  border-radius : 10px;
+  text-align : center;
+  padding-top: 10px;
+  font-Size : 15px;
+  width : 100px;
+  color : #EAFAF1;
+  background-color : rgb(0,0,0,0);
+  margin : 10px;
+}
+.output{
+  color: white;
+  padding : 15px;
+  font-Size : 20px;
+}
+.doneButton{
+  height : 20px;
+  border : 2px solid #52BE80;
+  border-radius : 10px;
+  text-align : center;
+  padding-top: 3px;
+  font-Size : 15px;
+  width : 60px;
+  color : #EAFAF1;
+  margin : 10px;
+  margin-left : 500px;
+  background-color : rgb(0,0,0,0);
+}
+.doneButton:hover{
+  background-color : #52BE80;
+  color : black;
+}
+.css1{
+    color: yellow;
+}
+
+.css2{
+    color: red;
+}
+.image{
+  height : 300px;
+}
