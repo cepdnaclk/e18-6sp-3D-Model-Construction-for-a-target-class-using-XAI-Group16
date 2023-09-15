@@ -29,10 +29,21 @@ title: 3D Model Construction for a target class using XAI
 
 ## Introduction
 
-Our aim is to create a general 3d skeleton for a target object through a process which uses a model that understands  the unique and real features of the target object using XAI
+The aim of this project is to create a general 3D skeleton for a target object through a process which uses a model that understands  the unique and real features of the target object using XAI.
+
+### Problem Domain
+* Machine learning models for classification are unclear on how they classify images and what criteria they use.
+* These models may learn irrelevant features that can affect their decision-making, potentially leading to inaccuracies.
+
+  
+### Project scope
+Here we aim to uncover the underlying decision-making criteria and features using explainable methods and reconstruct them in 3D for a better understanding
+
+![image (1)](https://github.com/cepdnaclk/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16/assets/73444543/f9578d5d-c3a1-411b-9288-202f3779dbe2) ---->  ![image](https://github.com/cepdnaclk/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16/assets/73444543/98b38090-994d-48b6-9d2b-4488829827c8)
+
 
 ## Image Classification Model
-As the image classification model we're using MobileNet Image Classification With TensorFlow's Keras API.
+As the image classification model, we're using MobileNet Image Classification With TensorFlow's Keras API.
 MobileNet is a deep learning model architecture designed for efficient image classification on mobile and embedded devices. It was developed by Google and is widely used due to its small size and fast inference speed.
 
 The MobileNet architecture employs depthwise separable convolutions, which significantly reduces the number of parameters and computations required compared to traditional convolutional neural networks (CNNs). This reduction allows MobileNet to achieve a good balance between accuracy and model size.
@@ -69,20 +80,44 @@ Comparing with state-of-the-art method this method falls short in terms of sampl
 
 ## Images Classification results
 Result : Model predicting the image as a car correctly
+![car_edit](https://github.com/cepdnaclk/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16/assets/73444543/5e751a09-924d-4532-a442-2f68c812ad89)
 
-![car](https://github.com/cepdnaclk/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16/assets/73444543/aa783423-dae2-4f6c-822a-339cd00f147e)
 
 ## SHAP output
 ![WhatsApp Image 2023-06-13 at 10 10 378](https://github.com/cepdnaclk/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16/assets/73444543/aea640c0-6149-4352-b73f-1d663b5e25ff)
 
 ## 3D reconstruction results
-![Screenshot 2023-06-13 092518](https://github.com/cepdnaclk/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16/assets/99112218/4360defa-bda6-4d64-a0bf-cedf14c5d405)
-![Screenshot 2023-06-13 092550](https://github.com/cepdnaclk/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16/assets/99112218/c5fc0919-c712-420b-b3f5-c69d44f3521b)
-![Screenshot 2023-06-13 092528](https://github.com/cepdnaclk/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16/assets/99112218/5e28fb94-942a-40cf-b6be-29e1aad30f9c)
+![dog1](https://github.com/cepdnaclk/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16/assets/73444543/f15d53f9-4ee9-4ffa-afac-6d2f86614658)   ![dog2](https://github.com/cepdnaclk/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16/assets/73444543/586722b4-4edc-41d8-a0cf-07efda745c1c) 
+![red1 (1)](https://github.com/cepdnaclk/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16/assets/73444543/3ca78830-3228-4726-a113-35544c988d2f) ![car-b](https://github.com/cepdnaclk/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16/assets/73444543/5762f87c-1595-4cdb-8f8a-0a9f8e855034)
 
-![car1](https://github.com/cepdnaclk/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16/assets/73444543/4c18d010-eef3-419c-96b1-113d34196009)
+## Process & Progression
 
+### Machine Learning Section
+* Created and trained an image Classification model using MobileNet
+* Outputs of the image classification model were explained using SHAP
+* Classified images using trained ML model - Testing
+* Removed the irrelevant pixels of an image  using SHAP
 
+### 2D to 3D Reconstruction Section
+* Identified a suitable method for 3D reconstruction for a given 2D image using point E cloud techniques
+* Using that method, created 3D models for preprocessed images
+
+### Software Engineering Section
+* Created a Dashboard with the following features.
+* Image classification 
+* Feature to Remove the irrelevant pixels of a given picture and output the 3D object of that.
+
+## Dashboard
+
+## Testing
+* Testing for Machine Learning Model - manual testing
+ 
+![ml_test1 (1)](https://github.com/cepdnaclk/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16/assets/73444543/d21a0239-3afb-496e-a82a-484519dbe413)
+![ml_test2 (1)](https://github.com/cepdnaclk/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16/assets/73444543/81c8d4fe-6c92-455a-9a7e-84ba78e39240)
+
+* Dashboard - endpoint testing using post-man
+  
+  ![image (2)](https://github.com/cepdnaclk/e18-6sp-3D-Model-Construction-for-a-target-class-using-XAI-Group16/assets/73444543/e33a937a-fefd-4fd2-80d8-2179e429fb46)
 
 ## Links
 
