@@ -107,7 +107,6 @@ Result : Model predicting the image as a car correctly
 * Image classification 
 * Feature to Remove the irrelevant pixels of a given picture and output the 3D object of that.
 
-## Dashboard
 
 ## Testing
 * Testing for Machine Learning Model - manual testing
